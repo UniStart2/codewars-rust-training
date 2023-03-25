@@ -6,14 +6,13 @@ use std::ops::{Div, Mul};
 // ...
 // un = (1 / n!) * (1! + 2! + 3! + ... + n!)
 // U(n) = 1 + U(n-1) / n
-//
 // fn going(n: i32) -> f64 {
 //     if n == 1 {
 //         return 1.0f64;
 //     }
 //
 //     1.0f64 + (going(n-1) / n as f64).mul(1e6).floor().div(1e6)
-// }:
+// }
 
 fn going(n: i32) -> f64 {
     let mut sum = 0.0;
