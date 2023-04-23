@@ -11,3 +11,4 @@ mod reverse_words;
 mod string_with_end;
 mod unique_in_order;
 mod your_order_please;
+mod string_incrementer;
